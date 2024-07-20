@@ -66,13 +66,12 @@ function Upload({ setIsUploading, requestFetch, lang, setLang, setPrevImgs }) {
           <div className="modal__top">
             <div className="modal__img-container">
               {objURL.map((item, idx) => (
-                <button
-                  className="modal__img"
-                  key={idx}
-                  onClick={() => deleteClickHandler(idx)}
-                >
+                <button className="modal__img" key={item}>
                   <img src={item} alt="img" />
-                  <div className="trash">
+                  <div
+                    className="trash"
+                    onClick={() => deleteClickHandler(idx)}
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
