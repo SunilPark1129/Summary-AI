@@ -109,8 +109,8 @@ function Upload({ setIsUploading, requestFetch, lang, setLang, setPrevImgs }) {
                   type="file"
                   multiple
                   onChange={getUploadedFiles}
-                  accept="image/*"
-                  // accept=".jpg, .jpeg, .png"
+                  accept=".jpg, .jpeg, .png"
+                  capture="environment"
                 />
               </label>
             </div>
