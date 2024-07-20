@@ -6,6 +6,7 @@ import "./styles/upload.css";
 import "./styles/loading.css";
 import "./styles/error.css";
 import "./styles/summary.css";
+import "./styles/lang.css";
 import BottomButton from "./components/BottomButton/BottomButton";
 import useFetch from "./hooks/useFetch";
 
