@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const PORT = import.meta.env.BASE_SERVER_KEY ?? "http://localhost:5000";
+const PORT =
+  import.meta.env.REACT_APP_BASE_SERVER_KEY ?? "http://localhost:5000";
+
+// server port
+// http://localhost:5000
 
 function useFetch() {
   const [prompt, setPrompt] = useState(null);
