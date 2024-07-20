@@ -110,6 +110,7 @@ function Upload({ setIsUploading, requestFetch, lang, setLang, setPrevImgs }) {
                   multiple
                   onChange={getUploadedFiles}
                   accept=".jpg, .jpeg, .png"
+                  capture
                 />
               </label>
             </div>
