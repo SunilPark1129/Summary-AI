@@ -18,6 +18,12 @@ function Screen({
   const [lang, setLang] = useState("English");
   const [prevImgs, setPrevImgs] = useState([]);
 
+  const preim = [
+    "https://upload.wikimedia.org/wikipedia/en/9/90/One_Piece%2C_Volume_61_Cover_%28Japanese%29.jpg",
+  ];
+
+  const text = "hello";
+
   useEffect(() => {
     const langCookie = Cookies.get("langCookie");
 
@@ -28,15 +34,17 @@ function Screen({
 
   return (
     <div className={`screen ${isLoading && "screen--loading"}`}>
-      {!data && !isLoading && !error ? (
+      {/* {!data && !isLoading && !error ? (
         <Tip />
       ) : error ? (
         <ErrorComponent error={error} />
       ) : isLoading ? (
         <Loading logo={logo} />
       ) : (
-        <SummaryScreen data={data} prevImgs={prevImgs} />
-      )}
+        <SummaryScreen data={data} prevImgs={preim} />
+      )} */}
+      <SummaryScreen data={text} prevImgs={preim} />
+
       {isUploading && (
         <Upload
           setIsUploading={setIsUploading}
