@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const PORT =
-  import.meta.env.REACT_APP_BASE_SERVER_KEY ?? "http://localhost:5000";
+const BASE_PORT =
+  process.env.REACT_APP_BASE_SERVER_KEY ?? "http://localhost:5000";
 
 // server port
 // http://localhost:5000
@@ -15,7 +15,7 @@ function useFetch() {
 
   async function callFetch() {
     axios
-      .post(`${PORT}/openai/vision`, {
+      .post(`${BASE_PORT}/openai/vision`, {
         prompt: prompt.prompt,
         lang: prompt.lang,
       })
