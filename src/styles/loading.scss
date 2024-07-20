@@ -1,0 +1,97 @@
+.loading {
+  width: 8em;
+  height: 8em;
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  pointer-events: none;
+
+  &__circle {
+    position: absolute;
+    border-radius: 50%;
+    border: 0.5em solid transparent;
+    width: 8em;
+    height: 8em;
+
+    &:nth-of-type(1) {
+      border-color: #f8ca26 transparent transparent transparent;
+      animation: spin1 4s ease-in-out infinite;
+    }
+    &:nth-of-type(2) {
+      border-color: #3fe830 transparent transparent transparent;
+      animation: spin2 4s ease-in-out infinite;
+    }
+    &:nth-of-type(3) {
+      border-color: #ef4141 transparent transparent transparent;
+      animation: spin3 4s ease-in-out infinite;
+    }
+  }
+
+  &__logo {
+    width: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+    animation: logo-spin 8s linear infinite;
+  }
+}
+
+@keyframes spin1 {
+  0% {
+    transform: rotate(0deg);
+    width: 7em;
+    height: 7em;
+  }
+  70% {
+    transform: rotate(360deg);
+    width: 8em;
+    height: 8em;
+  }
+  100% {
+    transform: rotate(720deg);
+    width: 7em;
+    height: 7em;
+  }
+}
+@keyframes spin2 {
+  0% {
+    transform: rotate(120deg);
+    width: 7em;
+    height: 7em;
+  }
+  70% {
+    transform: rotate(480deg);
+    width: 8em;
+    height: 8em;
+  }
+  100% {
+    transform: rotate(840deg);
+    width: 7em;
+    height: 7em;
+  }
+}
+@keyframes spin3 {
+  0% {
+    transform: rotate(240deg);
+    width: 7em;
+    height: 7em;
+  }
+  70% {
+    transform: rotate(600deg);
+    width: 8em;
+    height: 8em;
+  }
+  100% {
+    transform: rotate(960deg);
+    width: 7em;
+    height: 7em;
+  }
+}
+
+@keyframes logo-spin {
+  100% {
+    transform: rotate(-360deg);
+  }
+}

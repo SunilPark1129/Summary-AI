@@ -1,0 +1,16 @@
+.btn {
+  border: 1px solid #fff;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 0.5em 2em;
+  border-radius: 4px;
+}
+.btn:disabled {
+  border: 1px solid var(--clr-lgt) !important;
+  color: var(--clr-lgt) !important;
+  background-color: transparent !important;
+  cursor: not-allowed;
+}
+.btn:hover {
+  background-color: var(--clr-btn-hover);
+}/*# sourceMappingURL=button.css.map */

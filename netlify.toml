@@ -1,0 +1,10 @@
+[[redirects]]
+from = "/*"
+to = "https://openai-backend-sunilpark1129.onrender.com/:splat"
+status = 200
+headers = {X-From = "Netlify"}
+
+[[headers]]
+for = "/*"
+[headers.values]
+Access-Control-Allow-Origin = "*"
