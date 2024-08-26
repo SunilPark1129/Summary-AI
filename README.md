@@ -31,7 +31,7 @@ Figma - [Link](https://www.figma.com/design/12XFOfdrJ2NLSDBSCdXLhe/SP-Translate?
 ## Installation
 1. Clone the repo
 ```
-git clone https://github.com/SunilPark1129/Summary-ai.git
+git clone https://github.com/SunilPark1129/Summary-AI.git
 ```
 2. Install
 ```
