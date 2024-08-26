@@ -1,71 +1,47 @@
-# Getting Started with Create React App
+# SIP CLOTHING
+![openai image](https://github.com/user-attachments/assets/cd1b3b48-f2f8-490d-9dda-222791471ec4)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Go to website - [Link](https://sp-summary-ai.netlify.app/)<br>
+Summary AI-v1 08/26/24
 
-## Available Scripts
+Figma - [Link](https://www.figma.com/design/12XFOfdrJ2NLSDBSCdXLhe/SP-Translate?node-id=0-1&m=dev&t=ABcgaJ8AZH5tBTgb-1)<br>
+![figma](https://github.com/user-attachments/assets/18af5e89-dc20-4a26-9fe3-4884869cc0d4)
 
-In the project directory, you can run:
+## Project Description
 
-### `npm start`
+- When users upload an image of a long document, the AI provides a concise summary.
+- Users can choose their preferred language, and the AI will translate it for them.
+- I worked on this project because my mother struggles to understand English when reading mails.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
+> Features that I would like to introduce.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+|Feature|Description|
+|:--:|:--|
+|Select Images<br>Take photo|<img src="https://github.com/user-attachments/assets/ed97252a-0303-424e-848d-349d2621e6b9" height="400"><br><br>You can upload images directly from a saved folder, or you can take a photo and upload it. The API allows you to send up to 10 images per request.|
+|Language|<img src="https://github.com/user-attachments/assets/1ae7eb03-0217-465f-b3a4-56c9a2a2a728" height="400"><br><br>When you select a language, the AI will first summarize the content and then translate it.|
+|Loading|<img src="https://github.com/user-attachments/assets/3ab185b8-a427-4489-abfe-0d300d80727d" height="400"><br><br>Implement a loading animation during the summary and translation process to indicate that the request is being sent.|
+|Summary|<img src="https://github.com/user-attachments/assets/f06d291b-bd97-4897-84cd-54780d4729ba" height="400"><br><br>Once the request is complete and the summary is successfully retrieved, the summarized text will be displayed on the screen.|
+|Zoom in|<img src="https://github.com/user-attachments/assets/54866c24-eb9a-4bef-b612-b265717011c9" height="400"><br><br>When users want to review the photo they sent, they can click on the image above to view it in a zoomed-in state.|
 
-### `npm test`
+## Skills Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![RESTful API](https://img.shields.io/badge/restful_api-%23323330.svg?style=for-the-badge&logoColor=%23F7DF1E) ![JSCOOKIE](https://img.shields.io/badge/JSCOOKIE-%23323330.svg?style=for-the-badge&logoColor=%23F7DF1E) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
-### `npm run build`
+## Installation
+1. Clone the repo
+```
+git clone https://github.com/SunilPark1129/Summary-ai.git
+```
+2. Install
+```
+npm install
+```
+2. run the website
+```
+npm start
+```
+[Link](https://sp-summary-ai.netlify.app/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Summary-AI
+## Project Status
+Completed
