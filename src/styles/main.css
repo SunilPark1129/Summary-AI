@@ -37,6 +37,7 @@ main {
 }
 .screen__tip__boxs div {
   width: 5em;
+  aspect-ratio: 1;
   display: flex;
 }
 .screen__tip__boxs div svg {
