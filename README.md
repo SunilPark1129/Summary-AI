@@ -28,20 +28,5 @@ Figma - [Link](https://www.figma.com/design/12XFOfdrJ2NLSDBSCdXLhe/SP-Translate?
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![RESTful API](https://img.shields.io/badge/restful_api-%23323330.svg?style=for-the-badge&logoColor=%23F7DF1E) ![JSCOOKIE](https://img.shields.io/badge/JSCOOKIE-%23323330.svg?style=for-the-badge&logoColor=%23F7DF1E) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
-## Installation
-1. Clone the repo
-```
-git clone https://github.com/SunilPark1129/Summary-AI.git
-```
-2. Install
-```
-npm install
-```
-2. run the website
-```
-npm start
-```
-[Link](https://sp-summary-ai.netlify.app/)
-
 ## Project Status
 Completed
